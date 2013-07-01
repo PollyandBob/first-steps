@@ -1,0 +1,149 @@
+{% extends 'FenchyFrontendBundle::layoutV2.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {# any view specific stylesheets for this view #}  
+    <link rel="stylesheet" href="{{ asset('css/app/article-box-v2.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('css/app/search-bar-v2.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('css/app/search-bar-big-v2.css') }}" type="text/css" />    
+    <link rel="stylesheet" href="{{ absolute(asset('css/frontend/frontend/index-v2.css')) }}" type="text/css" />
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script type="text/javascript" src="{{ asset('plugins/ko/knockout-2.2.1.debug.js') }}"></script>
+    {% include '::gmapsApiAsset.html.twig' %} 
+    
+    <script type="text/javascript" src="{{ asset('js/ko-extensions/jquery-autocomplete.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/mvvm/landing-page-view-model.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/lib/gapi-autocomplete.js') }}"></script>
+    
+    <script type="text/javascript">
+
+        var landingPageViewModel;
+
+        $(document).ready(function() {
+            geocoder = new google.maps.Geocoder();
+            var baseSearchViewUri = '{{ path('fenchy_notice_indexv2') }}';            
+            
+            landingPageViewModel = new LandingPageViewModel(geocoder, baseSearchViewUri);
+            
+            ko.applyBindings( landingPageViewModel, document.getElementsByTagName('body')[0] );
+            
+            autocomplete = new GApiAutocomplete(
+                document.getElementById('location'),
+                landingPageViewModel );
+                
+                var _default_location = '';
+                
+                {% if app.user and not app.user.location.location %}
+                    _default_location = '{{default_location}}';
+                {% elseif app.user and app.user.location.location %}
+                    _default_location = '{{app.user.location.location|replace({"\n": ''})}}';
+                {% else %}
+                    _default_location = '{{default_location}}';     
+                {% endif %}
+                    
+                $('input#location').val(_default_location);
+                
+        });
+        
+        
+        
+    </script>
+    
+
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>        
+    
+    
+{% endblock %}
+
+{% block tagline_content %}
+    <section id="tagline">
+        <div class="tagline-banner"></div>
+        <div class="tagline-wrapper">
+            <div class="container">
+                <h2>{{'frontend.header.slogan'|trans}}</h2>
+                    {% include '::searchBarV2.html.twig' %}                          
+            </div>
+        </div>
+    </section>
+{% endblock %}
+{% block content %}  
+    <div id="fb-root"></div>
+    <section class="main landingpage" data-role="main">
+        <div class="content-ltr">
+            <div class="clearfix">
+                <section class="content pull-left">
+                    <div class="article-list-wrapper clearfix">
+                            
+                        {% if notices %}
+                            {% for notice in notices %}
+                                <article class="box mediumbox">
+                                    <figure>
+                                        <img src="{{ asset(notice.avatar(false)) }}" alt=""/>
+                                        <figcaption>
+                                            <div>
+                                                <h3><a href="{{path('fenchy_notice_show_slug', {'slug': notice.slug, 'year': notice.createdAt|date('Y'), 'month': notice.createdAt|date('m'), 'day': notice.createdAt|date('d')  })}}">{{notice.title}}</a></h3>
+                                                {% if notice.type.name == 'events' %}
+                                                    <strong>{{ notice.location }}</strong>
+                                                {% endif %}
+                                            </div>                                        
+                                        </figcaption>
+                                    </figure>
+                                    <div class="event-master clearfix">
+                                        <div class="img">
+                                            <span class="image-container small-avatar bordered">
+                                                <img src="{{ asset(notice.user.regularUser.avatar) }}" alt="{{notice.user.userRegular.firstName}} {{notice.user.userRegular.lastName}}"/>
+                                            </span>
+                                        </div>
+                                        <div class="event-master-info">
+                                            <strong class="info-by-line"><a href="#" class="name">{{notice.user.userRegular.firstName}} {{notice.user.userRegular.lastName}}</a></strong>                                                    
+                                            <strong class="info-by-line"><a href="#" class="location"><i class="icon-map-marker"></i><span>{{ notice.user.location }}</span></a></strong>                                                    
+                                        </div>
+                                    </div>
+                                    <div class="activity">
+                                        <a href="#" class="event"><i class="{{notice.icon}}"></i></a>
+                                    </div>
+                                </article>                                
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                    <aside class="main clearfix" data-role="complementary">
+                        <p>{{'frontend.foot.slogan1'|trans}}<br/>{{'frontend.foot.slogan2'|trans}}</p>
+                        <div class="button green-button create-listing">
+                            <a href="{{path('fenchy_regular_user_notice_create1')}}" class="wrapper">
+                                <i class="icon-list-alt"></i><strong>{{'frontend.create_listing_now'|trans}}</strong>
+                            </a>
+                        </div>
+                    </aside>
+                    <!-- main -->
+                </section>
+                <section class="sidebar pull-right">
+                    <header>
+                        <h3>{{'frontend.so_what_is'|trans}} <img src="{{ absolute(asset('images/site/fenchy_logo_green.png')) }}" alt="Fenchy"/><strong>?</strong></h3>
+                    </header>
+                    <ul>
+                        <li><img src="{{ absolute(asset('images/site/location_icon.png')) }}" alt=""/><p>{{'frontend.right_sidebar.what_we_do1'|trans}}</p></li>
+                        <li><img src="{{ absolute(asset('images/site/group_icon.png')) }}" alt=""/><p>{{'frontend.right_sidebar.what_we_do2'|trans}}</p></li>
+                        <li><img src="{{ absolute(asset('images/site/infinite_icon.png')) }}" alt=""/><p>{{'frontend.right_sidebar.what_we_do3'|trans}}</p></li>
+                    </ul>
+                    <footer>
+                        <p>{{'frontend.right_sidebar.summary.1'|trans}} <span>{{'frontend.right_sidebar.summary.2'|trans}}</span> {{'frontend.right_sidebar.summary.3'|trans}}</p>
+                        <div class="facebook-like-box">
+                            <div class="fb-like" data-href="http://fenchy.com" data-send="false" data-layout="button_count" data-width="220" data-show-faces="false"></div>
+                        </div>
+                    </footer>
+                </section>
+            </div>            
+        </div>
+        <!-- container -->
+    </section>
+    <!-- main -->
+{% endblock %}

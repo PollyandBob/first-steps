@@ -1,0 +1,177 @@
+frontend:
+  about:
+    title: O nas
+
+    article:
+      par_1: Fenchy jest lokalną siecią łączącą ludzi z ich sąsiedztwem. Używając Fenchy możesz w łatwy sposób podzielić się swoimi zainteresowaniami, aktywnościami, wydarzeniami bądź też użytecznymi przedmiotami ze swoim sąsiedztwem
+
+      par_2: Wystarczy zaledwie jedno kliknięcie by połączyć Fenchy z Facebookiem bądź Twitterem
+
+      par_3: Fenchy jest dostępne wszędzie z użyciem przeglądarki internetowej.
+
+      par_4: Fenchy chce uprościć życie by to stało się weselsze oraz wykorzystując dostępne zasoby  by było bardziej efektywnie
+
+      par_5: Nie masz jeszcze darmowego konta?
+
+      sign_up_here: Zarejestruj się tutaj.
+
+  advertising:
+    article:
+      par_1: .
+
+      par_2: .
+
+      par_3: .
+
+    title: Reklama
+
+  facebook:
+    title: Facebook
+
+  imprint:
+    title: Wydawca
+
+    fenchy_gmbh: Fenchy GmbH
+
+    fenchy_address_1: Marchlewskistr. 16
+
+    fenchy_address_2: D-10243 Berlin
+
+    registered_office: Siedziba:Berlin
+
+    registered_court: Podmiot rejestrujący:HRB 143139 B Charlottenburg
+
+    managing_directiors: Dyrektorzy zarządzający:Matthias Eisele * Dr. Volker Siems * Simon Akstinat
+
+    contact: Kontakt
+
+    email: E:info@fenchy.com
+
+    disclaimer: Disclaimer:
+
+    disclaimer_body: Ta strona może zawierać linki do zewnętrznych witryn. Fenchy nie odpowiada za treść przedstawioną na zewnętrznych stronach, na które przechodzisz na własne ryzyko. Dostawcy tych stron internetowych są wyłącznie odpowiedzialni za treści prezentowane przez nich.
+
+    office: Biuro
+
+    office_address: Warchauerstr. 60*D-10245 Berlin
+
+    phone: T:+49 (0) 30 46 48 37 69
+
+  jobs:
+    title: Praca
+
+    header_1: Chcemy uwolnić zaufanie oraz jedność w sąsiedztwach na całym świecie
+
+    header_2: Chcesz pomóc? Sprawdź nasze wartości:
+
+    1:
+      par_1: Staramy się zrozumieć dlaczego naszym użytkownikom zależy
+
+      par_2: Wszystko co robimy chcemy by miało dużą wartość dla nich.
+
+    2:
+      par_1_1: Nie podążamy za instrukcjami z książek czy poradników.
+
+      par_1_2: Szukając najlepszego rozwiązania, tworzymy oraz działamy szybko.
+
+      par_2: W ten sposób ucząc się również na błędach.
+
+    3:
+      par_1: Próbujemy dzielić jak największą ilością pomysłów jak i informacji.
+
+      par_2: 
+
+    4:
+      par_1: Cenimy wielkość innych i szanujemy.
+
+      par_2: Wierzymy w bardzo ciepłe, szczere jak i bezpośrednie stosunki międzyludzkie - wewnątrz jak i poza Fenchy
+
+    5:
+      par_1: Tworzomy Fenchy by uwolnić zaufanie oraz jedność w sąsiedztwach na całym świecie
+
+      par_2: 
+
+    bottom:
+      text: Myślisz, że możesz się wpasować ? Skontaktuj się z nami !
+
+      current_positions: Obecne formy współpracy
+
+      apply_now: Aplikuj teraz !
+
+  languages:
+    title: Języki
+
+  privacy:
+    title: Prywatność
+
+  terms:
+    title: Warunki
+
+  logo_alt: Fenchy
+
+  my_profile: Mój profil
+
+  manage_listings: Zarządzaj wpisami
+
+  settings: Ustawienia
+
+  log_out: Wyloguj się
+
+  admin: Panel Admina
+
+  sign_in: Zaloguj się
+
+  sign_up: Zarejestruj się
+
+  english: Angielski
+
+  deutsch: Niemiecki
+
+  polski: Polski
+
+  header:
+    slogan: Znajdź wszystko i wszystkich w sąsiedztwie.
+
+    photo_sign: Festsaal Kreuzberg, Berlin
+
+  foot:
+    slogan1: Masz coś do zaoferowania swoim sąsiadom?
+
+    slogan2: Może coś na sprzedaż bądź wymianę?
+
+  create_listing_now: Utwórz swój wpis teraz!
+
+  search: Wyszukaj
+
+  so_what_is: A... więc
+
+  right_sidebar:
+    what_we_do1: Łączymy cię ze wszystkim w Twojej okolicy.
+
+    what_we_do2: Integrujemy Cię z wydarzeniami i ludźmi z Twojej okolicy.
+
+    what_we_do3: Masz nieskończenie wiele możliwości wykorzystania Fenchy dla swoich potrzeb.
+
+    summary:
+      1: To jest
+
+      2: Twoje
+
+      3: sąsiedztwo.
+
+  create_listing: Utwórz wpis
+
+  sign_in_facebook: Facebook - Zaloguj się
+
+  sign_in_twitter: Twitter - Zaloguj się
+
+  placeholder_what: Co chciałbyś znaleźć?
+
+  404:
+    par_1: Wygląda na to, że wybrałeś złą ścieżkę
+
+    par_2: Nie martw się.. To zdarza się nawet najlepszym.
+
+    link: powróć do strony głównej
+
+  choose_your_language: Wybierz język

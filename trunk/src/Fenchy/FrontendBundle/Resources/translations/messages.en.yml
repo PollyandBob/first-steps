@@ -1,0 +1,177 @@
+frontend:
+  about:
+    title: About
+
+    article:
+      par_1: Fenchy is a local trust network that connects people with their neighborhood. Using Fenchy people can easily share activities, events or useful goods with the people nearby.
+
+      par_2: It takes just a click to connect Fenchy to Facebook or Twitter.
+
+      par_3: Fenchy can be accessed anywhere using a web browser.
+
+      par_4: With Fenchy we want to set free trust and connection in the world's neighborhoods.
+
+      par_5: DonÔÇÖt have a free account yet?
+
+      sign_up_here: Sign Up here.
+
+  advertising:
+    article:
+      par_1: .
+
+      par_2: .
+
+      par_3: .
+
+    title: 
+
+  facebook:
+    title: Facebook
+
+  imprint:
+    title: Imprint
+
+    fenchy_gmbh: Fenchy GmbH
+
+    fenchy_address_1: Marchlewskistr. 16,
+
+    fenchy_address_2: D-10243 Berlin
+
+    registered_office: Registered Office:Berlin
+
+    registered_court: Registered Court:HRB 143139 B Charlottenburg
+
+    managing_directiors: Managing Director:Matthias Eisele
+
+    contact: Contact
+
+    email: contact@fenchy.com
+
+    disclaimer: Disclaimer:
+
+    disclaimer_body: This Website may contain links to external websites. Fenchy is not responsible for the content presented by external websites, which you use at your own risk. The providers of these external websites are solely responsible for the content presented by these websites.
+
+    office: 
+
+    office_address: 
+
+    phone: 
+
+  jobs:
+    title: Jobs
+
+    header_1: We want to set free trust and connection in the world's neighbohoods.
+
+    header_2: Want to help? Check out our values:
+
+    1:
+      par_1: We start by seeking to understand why our users care.
+
+      par_2: Everything we do should create significant value for them.
+
+    2:
+      par_1_1: We don't follow instruction books.
+
+      par_1_2: Striving for the best solutions, we build and iterate fast.
+
+      par_2: Making mistakes and learning from them is crucial.
+
+    3:
+      par_1: We try to share as much ideas and information as possible.
+
+      par_2: We challenge ourselves and our assumptions to change and to improve continually.
+
+    4:
+      par_1: We value the greatness of others and respect personal things.
+
+      par_2: We believe in beeing direct, honest and warm with each other - inside and outside of Fenchy.
+
+    5:
+      par_1: We want to set free trust and connection in the world's neighborhoods.
+
+      par_2: That's why we are mindful of cultural differences and constantly think about scale.
+
+    bottom:
+      text: You think you'd fit in? We would love to hear from you!
+
+      current_positions: Our current open positions:
+
+      apply_now: Apply Now!
+
+  languages:
+    title: Languages
+
+  privacy:
+    title: Privacy
+
+  terms:
+    title: Terms
+
+  logo_alt: Fenchy
+
+  my_profile: My profile
+
+  manage_listings: Manage listings
+
+  settings: Settings
+
+  log_out: Logout
+
+  admin: Admin Panel
+
+  sign_in: Login
+
+  sign_up: Sign Up
+
+  english: English
+
+  deutsch: German
+
+  polski: Polish
+
+  header:
+    slogan: Find everything & everyone in your neighborhood.
+
+    photo_sign: 
+
+  foot:
+    slogan1: Have something to offer your neighbors?
+
+    slogan2: Perhaps something to sell or trade?
+
+  create_listing_now: Create Your Listing Now!
+
+  search: Search
+
+  so_what_is: So... what's
+
+  right_sidebar:
+    what_we_do1: We connect you with everything in your local area.
+
+    what_we_do2: We are committed to uniting you with the events and people in your neighborhood.
+
+    what_we_do3: There are infinite ways to use Fenchyfor your individualneeds.
+
+    summary:
+      1: This is
+
+      2: Your
+
+      3: neighborhood.
+
+  create_listing: Create Listing
+
+  sign_in_facebook: Sign in with Facebook
+
+  sign_in_twitter: Sign in with Twitter
+
+  placeholder_what: What would you like to find?
+
+  404:
+    par_1: It's looking like you may have taken a wrong turn.
+
+    par_2: Don't worry... it happens to the best of us.
+
+    link: return to the homepage
+
+  choose_your_language: Select language

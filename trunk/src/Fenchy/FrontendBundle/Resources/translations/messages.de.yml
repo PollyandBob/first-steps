@@ -1,0 +1,177 @@
+frontend:
+  about:
+    title: Über uns
+
+    article:
+      par_1: Fenchy ist ein lokales Vertrauensnetzwerk, das Menschen mit ihrer Nachbarschaft verbindet. Mit Fenchy k?Ânnen Nutzer ganz einfach Aktivit?ñten, Veranstaltungen oder n??tzliche Dinge mit den Menschen in der N?ñhe teilen.
+
+      par_2: Mit nur einem Click kann Fenchy mit Facebook oder Twitter verbunden werden.
+
+      par_3: Fenchy kann von überall aus mit einem Webbrowser verwendet werden.
+
+      par_4: Mit Fenchy wollen wir Vertrauen und Vernetzung in den Nachbarschaften dieser Welt stärken.
+
+      par_5: Du hast noch keinen kostenlosen Account?
+
+      sign_up_here: Registriere dich hier.
+
+  advertising:
+    article:
+      par_1: .
+
+      par_2: .
+
+      par_3: .
+
+    title: 
+
+  facebook:
+    title: Facebook
+
+  imprint:
+    title: Impressum
+
+    fenchy_gmbh: Fenchy GmbH
+
+    fenchy_address_1: Marchlewskistr. 16,
+
+    fenchy_address_2: D-10243 Berlin
+
+    registered_office: Sitz der Gesellschaft:Berlin
+
+    registered_court: Amtsgericht:HRB 143139 B Charlottenburg
+
+    managing_directiors: Geschäftsführer: Matthias Eisele
+
+    contact: Kontakt
+
+    email: E:contact@fenchy.com
+
+    disclaimer: Haftungsausschluss
+
+    disclaimer_body: Diese Website kann Links zu externen Webseiten enthalten. Fenchy ist nicht verantwortlich für die Inhalte der externen Webseiten, die auf eigenes Risiko hin besucht werden. Allein die Betreiber der externen Webseiten sind für die jeweiligen Inhalte auf den Webseiten verantwortlich.
+
+    office: 
+
+    office_address: 
+
+    phone: 
+
+  jobs:
+    title: Jobs
+
+    header_1: Wir wollen Vertrauen und Vernetzung in den Nachbarschaften dieser Welt stärken.
+
+    header_2: Lust, zu helfen? Hier unsere Werte:
+
+    1:
+      par_1: Zuallererst versuchen wir zu verstehen, was unsere Nutzer bewegt.
+
+      par_2: Alles was wir tun, soll wirklichen Wert für sie schaffen.
+
+    2:
+      par_1_1: Wir folgen keinen Anleitungen.
+
+      par_1_2: Wir streben nach den besten Lösungen indem wir schnell umsetzen und verbessern.
+
+      par_2: Fehler zu machen und von ihnen zu lernen ist dabei entscheidend.
+
+    3:
+      par_1: Wir versuchen, so viele Ideen und Informationen wie möglich zu teilen.
+
+      par_2: Wir stellen uns selbst und unsere Annahmen in Frage, um uns konstant zu verändern und zu verbessern.
+
+    4:
+      par_1: Wir schätzen die  Fähigkeiten unserer Mitmenschen und respektieren persönliche Dinge.
+
+      par_2: Wir versuchen direkt, ehrlich und warmherzig miteinander umzugehen - innerhalb und außerhalb von Fenchy.
+
+    5:
+      par_1: Mit Fenchy wollen wir Vertrauen und Vernetzung in den Nachbarschaften dieser Welt stärken.
+
+      par_2: Deshalb beachten wir kulturelle Besonderheiten und vergessen niemals die Skalierbarkeit.
+
+    bottom:
+      text: Du denkst, du passt zu Fenchy? Wir würden uns freuen, von dir zu hören.
+
+      current_positions: Hier unsere offenen Stellen:
+
+      apply_now: Bewirb dich jetzt!
+
+  languages:
+    title: Sprachen
+
+  privacy:
+    title: Datenschutz
+
+  terms:
+    title: AGB
+
+  logo_alt: Fenchy
+
+  my_profile: Mein Profil
+
+  manage_listings: Listings bearbeiten
+
+  settings: Einstellungen
+
+  log_out: Logout
+
+  admin: Administration
+
+  sign_in: Login
+
+  sign_up: Registrieren
+
+  english: Englisch
+
+  deutsch: Deutsch
+
+  polski: Polnisch
+
+  header:
+    slogan: Finde alles & jeden in deiner Nachbarschaft.
+
+    photo_sign: 
+
+  foot:
+    slogan1: Du hast was für deine Nachbarn?
+
+    slogan2: Etwas zu verkaufen oder zu tauschen?
+
+  create_listing_now: Erstelle hier dein Listing.
+
+  search: Suche
+
+  so_what_is: So... was ist
+
+  right_sidebar:
+    what_we_do1: Wir verbinden dich mit allem in deiner direkten Nähe.
+
+    what_we_do2: Vernetze dich mit den Veranstaltungen und den Menschen in deiner Umgebung.
+
+    what_we_do3: Du hast unendlich viele Möglichkeiten, Fenchy für dich zu nutzen.
+
+    summary:
+      1: Das ist
+
+      2: Deine
+
+      3: Nachbarschaft.
+
+  create_listing: Listing erstellen
+
+  sign_in_facebook: Mit Facebook anmelden
+
+  sign_in_twitter: Mit Twitter anmelden
+
+  placeholder_what: Was willst du finden?
+
+  404:
+    par_1: Sieht so aus, als wärst du falsch abgebogen.
+
+    par_2: Keine Sorge... Kann jedem mal passieren.
+
+    link: Zurück zur Homepage
+
+  choose_your_language: Sprache wählen
